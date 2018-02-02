@@ -1,0 +1,8 @@
+package com.riquart.beans;
+
+public class Utilisateur {
+	
+	private String nom;
+	private String prenom;
+	private boolean actif;
+}

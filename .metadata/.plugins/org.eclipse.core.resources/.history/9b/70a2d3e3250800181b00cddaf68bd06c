@@ -1,0 +1,9 @@
+package com.riquart.beans;
+
+public class TableauMultiplication {
+
+	private int valeur;
+	private int limite;
+	private int[] table;
+	
+}

@@ -1,0 +1,23 @@
+package com.formation.beans;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class Identification {
+	
+	private String etat;
+
+	public String getEtat() {
+		return etat;
+	}
+	
+	public void authentifier(HttpServletRequest req) {
+		String pseudo = req.getParameter("pseudo");
+		String password = req.getParameter("password");
+		
+		this.etat = "inconnu";
+		
+		if(pseudo != null && password != null && pseudo.length()>3) {
+			
+		}
+	}
+}

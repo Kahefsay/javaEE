@@ -1,0 +1,30 @@
+package com.riquart.beans;
+
+public class TableauMultiplication {
+
+	private int valeur;
+	private int limite;
+	private int[] table;
+	
+	
+	
+	public int getValeur() {
+		return valeur;
+	}
+	public void setValeur(int valeur) {
+		this.valeur = valeur;
+	}
+	public int getLimite() {
+		return limite;
+	}
+	public void setLimite(int limite) {
+		this.limite = limite;
+	}
+	public int[] getTable(int valeur, int limite) {
+		this.table = new int[limite];
+		for(int i = 0; i < limite; i++) {
+			this.table[i] = valeur * i+1;
+		}
+		return this.table;
+	}
+}

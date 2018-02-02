@@ -1,0 +1,11 @@
+package com.formation.beans;
+
+public class Identification {
+	
+	private String etat;
+
+	public String getEtat() {
+		return etat;
+	}
+	
+}

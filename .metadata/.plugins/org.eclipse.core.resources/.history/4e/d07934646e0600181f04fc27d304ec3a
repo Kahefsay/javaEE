@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Page HTML</title>
+</head>
+<body>
+
+<h1>PAGE HTML aux mon serveur Java EE</h1>
+
+<a href="/ApsioTest/Page2">Super formulaire</a>
+
+</body>
+</html>
